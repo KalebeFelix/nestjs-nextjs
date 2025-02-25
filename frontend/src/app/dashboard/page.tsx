@@ -12,7 +12,6 @@ export default function Dashboard() {
   useEffect(() => {
     if (!isAuthenticated()) {
       redirect('/');
-      return;
     }
 
     axios.get('http://localhost:3000/auth/me', {

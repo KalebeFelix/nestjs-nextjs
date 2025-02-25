@@ -27,6 +27,7 @@ export default function Signup() {
         <input type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} />
         <button type="submit">Cadastrar</button>
       </form>
+      <p>Já tem uma conta? <a href="/login">Login</a></p>
     </div>
   );
 }
